@@ -1,0 +1,38 @@
+{
+  "CurrentRequestName": "Get_CurrentUser",
+  "CurrentPath": "C:\\Subversion\\Projects\\SpiraTeam Add Ons\\Trunk\\Data Sync PlugIns\\Redmine\\RedmineRestTest\\RedmineRestTest.rest",
+  "Name": "RedmineRestTest.rest",
+  "Requests": [
+    {
+      "Name": "Get_Projects",
+      "Url": "http://demo.redmine.org/projects.xml",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [],
+      "Parameters": []
+    },
+    {
+      "Name": "Get_Issues",
+      "Url": "http://demo.redmine.org/issues/20547.xml?include=attachments,relations,journals",
+      "Method": "GET",
+      "Body": "",
+      "Credential": {
+        "UserName": "inflectratest",
+        "Password": "SemperF1",
+        "Domain": ""
+      },
+      "Headers": [],
+      "Parameters": []
+    },
+    {
+      "Name": "Get_CurrentUser",
+      "Url": "http://demo.redmine.org/users/current.xml",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [],
+      "Parameters": []
+    }
+  ]
+}
